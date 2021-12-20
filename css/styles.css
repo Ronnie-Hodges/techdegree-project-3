@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   color: #33405b;
+   max-width: 320px;
+   margin: 0 auto;
+}
+
+main {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.code_review_container {
+    background-color: #33405b;
+}
+
+#code_review {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Genos', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: whitesmoke;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.news_sign_up {
+    text-align: center;
+    border-bottom: 5px solid;
+}
+
+section {
+    margin-top: 3px;
+    border-top: 2.5px solid;
+}
+
+#sales_pitch {
+    font-size: 1.1em;
+    opacity: .5;
+}
+
+.text_field,
+.text_area {
+    display: block;
+    width: 100%;
+    background-color: rgb(229, 229, 235);
+    opacity: .5;
+    border: 0;
+    border-radius: 3px;
+    color: #33405b;
+    padding-left: 10px;
+}
+
+.text_field {
+    height: 3em;
+}
+
+.text {
+    opacity: .5;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+}
+
+.text_field:focus {
+    background-color: lightyellow;
+}
+
+#zipcode {
+    width: 50%;
+}
+
+#news_letter {
+    padding-top: 30px;
+    border-top: 2px solid;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.news_text,
+footer {
+    font-weight: 600;
+    opacity: .4;
+}
+
+button {
+    width: 100%;
+    line-height: 2.7em;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(47, 191, 177);
+    border: 0;
+}
+
+#button_text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+select {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 1200px;
+    }
+
+    main {
+        max-width: 769px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .swrapper6 {
+        padding-bottom: 20px;
+    }
+
+    .wrapper1, .wrapper2, .wrapper3, .wrapper4,
+    .wrapper5, .wrapper6, .wrapper7{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+
+    .wrapper1 input, .wrapper2 input, .wrapper3 input, .wrapper4 input,
+    .wrapper5 input, .wrapper6 select {
+        margin-left: auto;
+        width: 80%;
+    }
+
+    .wrapper1 label, .wrapper2 label, .wrapper3 label, .wrapper4 label,
+    .wrapper5 label, .wrapper6 label, .wrapper7 label {
+        width: 20%;
+    }
+
+    .wrapper7 input {
+        margin-right: auto;
+    }
+
+    #zipcode {
+        width: 20%;
+    }
+
+}
